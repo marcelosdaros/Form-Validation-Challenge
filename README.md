@@ -26,4 +26,8 @@ Additional requirements:
 - To validate the fields, the event listener *input* was created, so every time that the user types a new character, the application will check if the field's content is valid or not as per requirement #6.
 - To accomplish requirement #7, the property called 'filled' was added to the field objects, which always starts with 'false'. This field indicates if the user has already finished to type the field's content or not, and for that a second event listener using the *blur* event was created. The mentioned property is changed to 'true' after the first *blur* event occurs and only when this field is 'true' then the field validation that checks if the value is invalid will happen. This means that if the content is invalid but the first blur event did not occur yet, the field's color will remain black or will change to black in case it is currently green (valid). After the first blur event, the color will change to red always when the content is invalid.
 
+## Hands On!
+
+The application was deployed in a GitHub page and can be teste through this link: https://marcelostrackdaros.github.io/Form-Validation-Challenge/
+
 #### Challenge proposed by Let's Code and developed by Marcelo Strack Daros
