@@ -10,7 +10,7 @@ The main rules for the field's validation are:
 
 Additional requirements:
 
-5) When the screen is closed and reopened afterwards or if it is refreshed, the values from the inputs cannot be lost, the page needs to return to its latest state.
+5) When the screen is closed and reopened afterwards or if it is refreshed, the values from the inputs cannot be lost, these need to be displayed as per the latest inputs and the validations are reset.
 6) A field is valid once the user starts to type the field's content and its value is valid.
 7) A field is invalid only if the user has already finished and left the field's input box (after the *blur* event occurs) and its value is a valid value. After the first occurrence of the *blur* event, the field will be invalid always when the value is invalid, irrespective if the user is still typing (did not finish his/her input yet) or not and will be valid always when the field's content is a valid value.
 8) If the fields contains valid content, those must displayed with green color in the screen.
