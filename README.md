@@ -28,6 +28,6 @@ Additional requirements:
 
 ## Hands On!
 
-The application was deployed in a GitHub page and can be teste through this link: https://marcelostrackdaros.github.io/Form-Validation-Challenge/
+- The application was deployed in a GitHub page and can be tested through this link: https://marcelostrackdaros.github.io/Form-Validation-Challenge/
 
 #### Challenge proposed by Let's Code and developed by Marcelo Strack Daros
