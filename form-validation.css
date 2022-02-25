@@ -1,0 +1,28 @@
+form {
+  font: 100%/1.5em arial, verdana, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: black;
+  display: block;
+  margin: 80px auto;
+}
+
+.form-fields {
+  width: 250px;
+  display: block;
+  margin: auto;
+  border: none;
+  padding: 10px;
+}
+.form-fields > label {
+  display: block;
+  width: 200px;
+}
+
+.form-fields > input {
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
+}
